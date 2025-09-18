@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color:white;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header{
+    margin-top: 0px;
+    position:relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 15%;
+    padding: 1rem 9%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background:white;
+    border-bottom: 10px solid blueviolet;
+}
+
+header p{
+    font-size: 6rem;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*------- smaller screen----------------*/
+
+@media(max-width:995px){
+    header p{
+    font-size: 3rem;
+    font-weight: 100;
+    padding-left:0px;
+    padding-right:0px;
+    align-items: start;
+
+}
+header{
+    height: 20%;
+}
+    .discover p{
+    font-size: 18px;
+    line-height:27px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+    padding-left: 7px;
+}
+.HOW H2 {
+    text-align: center;
+    font-weight: 600;
+    padding-top: 0px;
+    color:rgb(40, 6, 72);
+    font-size: 17px;
+    line-height: 22px;
+}
+
+}
+.discover p{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    display: flex;
+    justify-content:space-around;
+}
+.HOW{
+    border-bottom: 1px solid rgb(211, 123, 254);
+    padding-bottom: 30PX;
+}
+.HOW img{
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+}
+.HOW H2 {
+    text-align: center;
+}
+.about{
+    width: 100%;
+    margin: auto;
+    padding-left: 60px;
+    padding-top: 20PX;
+    text-align: center;
+    padding-right: 30px;
+
+
+}
+.about p{
+    text-align:left;
+    font-size: 16px;
+    padding-top: 10px;
+    line-height: 23px;
+}
+.about h2{
+    margin-bottom: 20px;
+    font-size:x-large;
+    text-decoration: none;
+}
+@media(max-width:995px){
+    .about{
+    width: 100%;
+    margin: auto;
+    padding-left: 20px;
+    padding-top: 20PX;
+    text-align:start;
+    padding-right: 10px;
+
+}
+.about p{
+    text-align:left;
+    font-size: 18px;
+    padding-top: 10px;
+    line-height: 23px;
+}
+}
+.facilities-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.facilities-col img{
+    width: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.TESTIMONIES h1 {
+    text-align: center;
+    padding-top: 40px;
+    font-size: x-large;
+}
+.TESTIMONIES p{
+    text-align: center;
+    font-size: 18px;
+    padding-top: 8px;
+
+}
+
+@media(max-width:700px){
+    .row{
+        flex-direction: column;
+    }
+}
+.discuss-div{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    box-sizing: border-box;
+    flex-basis: 35%;
+    padding-bottom: 50px;
+    border-bottom: 1px  rgb(211, 123, 254) solid;
+  
+}
+.discuss-div h2{
+    font-size: x-large;
+}
+.discuss-div p{
+    font-size: 18px;
+    line-height: 24px;
+}
+.con-btn{
+    display: inline-block;
+    padding: 1.5rem 8.8rem;
+    background-color:white;
+    border-radius: 4rem;
+    font-size:17px;
+    margin-top: 15px;
+    font-weight: 600;
+    border: 2px solid  rgb(211, 123, 254) ;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.con-btn a{
+    color: blueviolet;
+}
+.border-line{
+    width: 100%;
+    box-sizing: border-box;
+    flex-basis: 31%;
+    padding-left: 5px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.border-line p{
+    font-size: 13px;
+}
+.peter-col{ 
+    
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align:center;
+
+}
+.peter-col img{
+    width: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+.peter-col P{
+    font-size: 18px;
+    text-align: left;
+    padding-left: 8px;
+}
+.peter-col h3{
+    font-size: x-large;
+}
+.PETER-row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width:700px){
+    .discuss-div{
+        padding-left:35px;
+    }
+    .discuss-div p{
+    font-size: 19px;
+    line-height: 24px;
+    font-weight: 700;
+}
+}
