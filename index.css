@@ -47,7 +47,7 @@ header p{
 @media(max-width:995px){
     header p{
     font-size: 3rem;
-    font-weight: 100;
+    font-weight: 500;
     padding-left:0px;
     padding-right:0px;
     align-items: start;
@@ -105,7 +105,7 @@ header{
 .about p{
     text-align:left;
     font-size: 16px;
-    padding-top: 10px;
+    padding-top: 17px;
     line-height: 23px;
 }
 .about h2{
@@ -126,7 +126,7 @@ header{
 .about p{
     text-align:left;
     font-size: 18px;
-    padding-top: 10px;
+    padding-top: 18px;
     line-height: 23px;
 }
 }
@@ -241,4 +241,5 @@ header{
     line-height: 24px;
     font-weight: 700;
 }
+
 }
