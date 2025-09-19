@@ -182,7 +182,7 @@ header{
 }
 .con-btn{
     display: inline-block;
-    padding: 1rem 4.8rem;
+    padding: 1rem 4.9rem;
     background-color:white;
     border-radius: 4rem;
     font-size:16px;
@@ -241,9 +241,10 @@ header{
     .discuss-div p{
     font-size: 18px;
     line-height: 24px;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 }
+
 
 
